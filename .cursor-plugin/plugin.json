@@ -1,0 +1,18 @@
+{
+  "name": "stacklist",
+  "displayName": "Stacklist",
+  "version": "1.0.0",
+  "description": "Save what your agent finds into Stacklist. Research, links and notes become stacks and cards your human can open, share and build on.",
+  "author": {
+    "name": "Stacklist",
+    "email": "engineering@stacklist.com",
+    "url": "https://stacklist.com"
+  },
+  "repository": "https://github.com/My-Stacks/stacklist-plugin",
+  "homepage": "https://stacklist.com",
+  "license": "MIT",
+  "keywords": ["stacklist", "bookmarks", "research", "curation", "knowledge", "second-brain", "mcp"],
+  "logo": "assets/logo.png",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
