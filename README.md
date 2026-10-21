@@ -33,7 +33,7 @@ Stacks created by an agent are **private** until you decide otherwise. Ask the b
 
 ## Security and privacy
 
-- Sign-in is OAuth 2.1 with PKCE. There are no API keys to paste and the plugin never asks for a password in chat.
+- Sign-in is OAuth 2.1 with PKCE and happens in your own browser on stacklist.com. There are no API keys to paste, and the skills tell the bot not to ask for credentials in chat.
 - Tokens are held by the host's connector backend, not on the bot's machine. Disconnect from the host at any time; the token stops working.
 - The plugin talks only to `stacky.stacklist.com`. Tool calls are logged for reliability; card content is processed only to provide the features you use.
 - Repository contents: a manifest, the server address and three skill files. The Stacklist service itself is not part of this repository.
